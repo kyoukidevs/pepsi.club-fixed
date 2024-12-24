@@ -819,8 +819,8 @@ Toggles.espenabled:OnChanged(function()
    esp.enabled = Toggles.espenabled.Value
 end)
 
-ESPTab:AddToggle('espbox', {Text = 'Box', Default = false})
-Toggles.espbox:OnChanged(function()
+ESPTab:AddToggle('Esp.Box', {Text = 'Box', Default = false})
+Toggles.Esp.Box:OnChanged(function()
    esp.settings.box.enabled = Toggles.Esp.Box.Value
 end)
 Toggles.espbox:AddColorPicker('espboxcolor', {Default = C3(255,255,255), Title = 'Box Color'})
